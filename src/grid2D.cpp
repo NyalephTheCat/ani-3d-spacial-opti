@@ -57,37 +57,42 @@ void Grid2d::add_particle(particle_element p) {
     particles.push_back(&grid[cell_coordinates.first][cell_coordinates.second].back());
 }
 
-std::vector<particle_element *> Grid2d::get_particles_influencing(particle_element particle) {
-    // Get the range of the particle
-    float range = cell_size;
+std::vector<particle_element*> Grid2d::get_particles_influencing(particle_element particle) {
+    std::vector<particle_element*> influencing_particles;
 
     // Get the cell coordinates of the particle
-    std::pair<int, int> cell_coordinates = get_cell_coordinates(particle);
+    std::pair<int, int> cell_coords = get_cell_coordinates(particle);
+    int cell_x = cell_coords.first;
+    int cell_y = cell_coords.second;
 
-    // Get the cells in range
-    std::vector<std::pair<int, int>> cells_in_range;
+    // Define a range of neighboring cells to check
+    int min_x = std::max(0, cell_x - 1);
+    int max_x = std::min(grid_size - 1, cell_x + 1);
+    int min_y = std::max(0, cell_y - 1);
+    int max_y = std::min(grid_size - 1, cell_y + 1);
 
-    // Get the cells in range
-    for (int i = cell_coordinates.first - 1; i <= cell_coordinates.first + 1; i++) {
-        for (int j = cell_coordinates.second - 1; j <= cell_coordinates.second + 1; j++) {
-            if (i >= 0 && i < grid_size && j >= 0 && j < grid_size) {
-                cells_in_range.emplace_back(i, j);
+    // Iterate over neighboring cells and add particles from those cells
+    for (int x = min_x; x <= max_x; ++x) {
+        for (int y = min_y; y <= max_y; ++y) {
+            std::vector<particle_element>& cell = grid[x][y];
+            for (particle_element& neighbor_particle : cell) {
+                // TODO FIX
+                if (norm(neighbor_particle.p - particle.p) < cell_size) {
+                    influencing_particles.push_back(&neighbor_particle);
+                }
             }
         }
     }
 
-    // Get the particles in range
-    std::vector<particle_element *> particles_in_range;
-
-    for (std::pair<int, int> cell : cells_in_range) {
-        for (particle_element &p : grid[cell.first][cell.second]) {
-            if (norm(p.p - particle.p) <= range) {
-                particles_in_range.push_back(&p);
-            }
+    /* This works but is slower
+    for (auto p: get_all_particles()) {
+        if (norm(p->p - particle.p) < cell_size) {
+            influencing_particles.push_back(p);
         }
     }
+     */
 
-    return particles_in_range;
+    return influencing_particles;
 }
 
 vec3 get_initial_velocity(initial_velocity velocity) {

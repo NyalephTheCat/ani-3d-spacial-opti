@@ -79,7 +79,6 @@ public:
      * @return A vector of particles that influence the particle
      */
      std::vector<particle_element*> get_particles_influencing(particle_element particle);
-
 private:
     float cell_size;
     int grid_size;

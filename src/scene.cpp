@@ -1,6 +1,6 @@
 #include "scene.hpp"
 
-void update_field_color(grid_2D<vec3>& field, Grid2d grid) {
+void update_field_color(grid_2D<vec3>& field, Grid2d grid, float h) {
     field.fill({ 1,1,1 });
     float const d = 0.1f;
     int const Nf = int(field.dimension.x);
@@ -14,7 +14,7 @@ void update_field_color(grid_2D<vec3>& field, Grid2d grid) {
             for (auto particle: grid.get_all_particles()) {
                 vec3 const& pi = particle->p;
                 float const r = norm(p0 - pi) / d;
-                f += 0.25f * std::exp(-r * r);
+                f += 2.0f * h * std::exp(-r * r);
             }
 
             field(kx, Nf - 1 - ky) = vec3(clamp(1 - f, 0, 1), clamp(1 - f, 0, 1), 1);
@@ -71,7 +71,7 @@ void scene_structure::display_frame() {
     }
 
     if (gui.display_color) {
-        update_field_color(field, grid);
+        update_field_color(field, grid, sph_parameters.h);
         field_quad.texture.update(field);
         draw(field_quad, environment);
     }
