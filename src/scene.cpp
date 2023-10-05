@@ -5,18 +5,18 @@ void update_field_color(grid_2D<vec3>& field, Grid2d grid) {
     float const d = 0.1f;
     int const Nf = int(field.dimension.x);
 
-    auto particles = grid.get_all_particles();
-
     for (int kx = 0; kx < Nf; ++kx) {
         for (int ky = 0; ky < Nf; ++ky) {
 
             float f = 0.0f;
             vec3 const p0 = { 2.0f * (kx / (Nf - 1.0f) - 0.5f), 2.0f * (ky / (Nf - 1.0f) - 0.5f), 0.0f };
-            for (size_t k = 0; k < particles.size(); ++k) {
-                vec3 const& pi = particles[k]->p;
+
+            for (auto particle: grid.get_all_particles()) {
+                vec3 const& pi = particle->p;
                 float const r = norm(p0 - pi) / d;
                 f += 0.25f * std::exp(-r * r);
             }
+
             field(kx, Nf - 1 - ky) = vec3(clamp(1 - f, 0, 1), clamp(1 - f, 0, 1), 1);
         }
     }
