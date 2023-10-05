@@ -1,3 +1,0 @@
-/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/Animation3d/cmake-build-debug/CMakeFiles/Animation3d.dir
-/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/Animation3d/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/Animation3d/cmake-build-debug/CMakeFiles/rebuild_cache.dir

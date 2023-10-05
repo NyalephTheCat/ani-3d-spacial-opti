@@ -1,11 +1,12 @@
 #include "simulation.hpp"
+#include "grid2D.hpp"
 
 using namespace cgp;
 
 // Convert a density value to a pressure
 float density_to_pressure(float rho, float rho0, float stiffness)
 {
-	return stiffness*(rho-rho0);
+    return stiffness*(rho-rho0);
 }
 
 float W_laplacian_viscosity(vec3 const& p_i, vec3 const& p_j, float h)
@@ -20,94 +21,102 @@ vec3 W_gradient_pressure(vec3 const& p_i, vec3 const& p_j, float h)
 
 float W_density(vec3 const& p_i, const vec3& p_j, float h)
 {
-	float const r = norm(p_i-p_j);
+    float const r = norm(p_i-p_j);
     assert_cgp_no_msg(r<=h);
-	return 315.0/(64.0*3.14159f*std::pow(h,9)) * std::pow(h*h-r*r, 3.0f);
+    return 315.0/(64.0*3.14159f*std::pow(h,9)) * std::pow(h*h-r*r, 3.0f);
 }
 
+void update_density(Grid2d &grid, sph_parameters_structure const& sph_parameters) {
+    float const h = sph_parameters.h;
+    float const m = sph_parameters.m;
 
-void update_density(numarray<particle_element>& particles, float h, float m)
-{
-    int const N = particles.size();
-    for(int i=0; i<N; ++i) {
-        particles[i].rho = 0.0f;
+    for (auto particle: grid.get_all_particles()) {
+        particle->rho = 0.0f;
 
-        for(int j=0; j<N; ++j) {
-            if (norm(particles[i].p-particles[j].p) <= h) {
-                particles[i].rho += m * W_density(particles[i].p, particles[j].p, h);
+        for (auto neighbour: grid.get_particles_influencing(*particle)) {
+            if (neighbour == particle) {
+                continue;
             }
+
+            particle->rho += m * W_density(particle->p, neighbour->p, h);
         }
     }
-
-
 }
 
-// Convert the particle density to pressure
-void update_pressure(numarray<particle_element>& particles, float rho0, float stiffness)
-{
-	const int N = particles.size();
-    for(int i=0; i<N; ++i)
-        particles[i].pressure = density_to_pressure(particles[i].rho, rho0, stiffness);
+void update_pressure(Grid2d &grid, sph_parameters_structure const& sph_parameters) {
+    float const rho0 = sph_parameters.rho0;
+    float const stiffness = sph_parameters.stiffness;
+
+    for (auto particle: grid.get_all_particles()) {
+        particle->pressure = density_to_pressure(particle->rho, rho0, stiffness);
+    }
 }
 
-// Compute the forces and update the acceleration of the particles
-void update_force(numarray<particle_element>& particles, float h, float m, float nu)
-{
-	// gravity
-    const int N = particles.size();
-    for(int i=0; i<N; ++i)
-        particles[i].f = m * vec3{0,-9.81f,0};
+void update_force(Grid2d &grid, sph_parameters_structure const& sph_parameters) {
+    float const gravity = 9.81f;
+    float const m = sph_parameters.m;
+    float const h = sph_parameters.h;
+    float const nu = sph_parameters.nu;
 
-    for(int i=0; i<N; ++i) {
-        vec3 F_pressure{0,0,0};
-        vec3 F_viscosity{0,0,0};
-
-        for(int j=0; j<N; ++j) {
-            if (i == j || norm(particles[i].p-particles[j].p) > h) continue;
-
-            F_pressure += m * (particles[i].pressure + particles[j].pressure) / (2.0f * particles[j].rho) * W_gradient_pressure(particles[i].p, particles[j].p, h);
-            F_viscosity += m * (particles[j].v - particles[i].v) / particles[j].rho * W_laplacian_viscosity(particles[i].p, particles[j].p, h);
-        }
-
-        particles[i].f += -m / particles[i].rho * F_pressure + m * nu * F_viscosity;
+    // Apply gravity to the force
+    for (auto particle: grid.get_all_particles()) {
+        particle->f = sph_parameters.m * vec3{0, -gravity, 0};
     }
 
+    // Apply viscosity to the force
+    for (auto particle: grid.get_all_particles()) {
+        vec3 viscosity_force = vec3{0, 0, 0};
+        vec3 pressure_force = vec3{0, 0, 0};
+
+        for (auto neighbour: grid.get_particles_influencing(*particle)) {
+            if (neighbour == particle) {
+                continue;
+            }
+
+            pressure_force += m * (particle->pressure + neighbour->pressure) / (2.0f * neighbour->rho) *
+                              W_gradient_pressure(particle->p, neighbour->p, h);
+            viscosity_force += m * (neighbour->v - particle->v) / neighbour->rho *
+                               W_laplacian_viscosity(particle->p, neighbour->p, h);
+        }
+
+        //particle->f += -m / particle->rho * pressure_force + m * nu * viscosity_force;
+    }
 }
 
-void simulate(float dt, Grid2d grid, sph_parameters_structure const& sph_parameters)
-{
+void simulate(float dt, Grid2d &grid, sph_parameters_structure const& sph_parameters) {
+    update_density(grid, sph_parameters);
+    update_pressure(grid, sph_parameters);
+    update_force(grid, sph_parameters);
 
-	// Update values
-    update_density(particles, sph_parameters.h, sph_parameters.m);                   // First compute updated density
-    update_pressure(particles, sph_parameters.rho0, sph_parameters.stiffness);       // Compute associated pressure
-    update_force(particles, sph_parameters.h, sph_parameters.m, sph_parameters.nu);  // Update forces
+    float const damping = 0.005f;
+    float const m = sph_parameters.m;
+    for (auto particle: grid.get_all_particles()) {
+        vec3& p = particle->p;
+        vec3& v = particle->v;
+        vec3& f = particle->f;
 
-	// Numerical integration
-	float const damping = 0.005f;
-    int const N = particles.size();
-	float const m = sph_parameters.m;
-	for(int k=0; k<N; ++k)
-	{
-		vec3& p = particles[k].p;
-		vec3& v = particles[k].v;
-		vec3& f = particles[k].f;
+        v = (1 - damping) * v + dt * f / m;
+        p = p + dt * v;
+    }
 
-		v = (1-damping)*v + dt*f/m;
-		p = p + dt*v;
-	}
-
-
-	// Collision
+    // Collision
     float const epsilon = 1e-3f;
-    for(int k=0; k<N; ++k)
-    {
-        vec3& p = particles[k].p;
-        vec3& v = particles[k].v;
+    for (auto particle: grid.get_all_particles()) {
+        vec3& p = particle->p;
+        vec3& v = particle->v;
 
-        // small perturbation to avoid alignment
-        if( p.y<-1 ) {p.y = -1+epsilon*rand_interval();  v.y *= -0.5f;}
-        if( p.x<-1 ) {p.x = -1+epsilon*rand_interval();  v.x *= -0.5f;}
-        if( p.x>1 )  {p.x =  1-epsilon*rand_interval();  v.x *= -0.5f;}
+        if (p.y < -1) { // Bottom
+            p.y = -1 + epsilon * rand_interval();
+            v.y *= -0.5f;
+        }
+        if (p.x < -1) { // Left
+            p.x = -1 + epsilon * rand_interval();
+            v.x *= -0.5;
+        }
+
+        if (p.x > 1) { // Right
+            p.x = 1 - epsilon * rand_interval();
+            v.x *= -0.5;
+        }
     }
-
 }
