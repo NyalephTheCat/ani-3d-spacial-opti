@@ -33,6 +33,7 @@ private:
 
 public:
     // constructor
+    Grid2d();
     Grid2d(int grid_size, float cell_size);
 
     /**
@@ -45,7 +46,7 @@ public:
      *
      * @return the grid
      */
-    static Grid2d create_grid(int grid_size, float cell_size, float spacing, sph_parameters_structure const& sph_parameters);
+    void fill(float spacing, float h);
 
     /**
      * @brief clears the grid

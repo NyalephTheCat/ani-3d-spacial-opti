@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/06_sph
+# Install script for directory: /mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/Animation3d
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/06_sph/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/Animation3d/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

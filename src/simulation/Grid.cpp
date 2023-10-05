@@ -71,11 +71,8 @@ std::vector<particle_element *> Grid2d::get_all_particles() {
     return this->particles;
 }
 
-Grid2d
-Grid2d::create_grid(int grid_size, float cell_size, float spacing, const sph_parameters_structure &sph_parameters) {
-    Grid2d grid(grid_size, cell_size);
-
-    float const h = sph_parameters.h;
+void Grid2d::fill(float spacing, float h) {
+    clear();
 
     for (float x = h; x < 1.0f - h; x = x + spacing * h)
     {
@@ -83,14 +80,23 @@ Grid2d::create_grid(int grid_size, float cell_size, float spacing, const sph_par
         {
             particle_element particle;
             particle.p = { x + h / 8.0 * cgp::rand_interval(),y + h / 8.0 * cgp::rand_interval(),0 }; // a zero value in z position will lead to a 2D simulation
-            grid.add_particle(particle);
+            add_particle(particle);
         }
     }
-
-    return grid;
 }
 
 void Grid2d::clear() {
     grid = std::vector<std::vector<std::vector<particle_element>>>(grid_size, std::vector<std::vector<particle_element>>(grid_size, std::vector<particle_element>()));
     particles = std::vector<particle_element*>();
+}
+
+Grid2d::Grid2d() {
+    const int grid_size = 100;
+    const float cell_size = (new sph_parameters_structure())->h;
+
+    this->grid_size = grid_size;
+    this->cell_size = cell_size;
+
+    // Initialize the grid
+    grid = std::vector<std::vector<std::vector<particle_element>>>(grid_size, std::vector<std::vector<particle_element>>(grid_size, std::vector<particle_element>()));
 }

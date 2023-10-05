@@ -29,11 +29,9 @@ void scene_structure::initialize_sph()
 {
 	// Initial particle spacing (relative to h)
 	float const c = 0.7f;
-	float const h = sph_parameters.h;
-
 
 	// Fill a square with particles
-	grid = Grid2d::create_grid(grid, 30, 1.0f / 30.0f, 1.0f / 30.0f, sph_parameters);
+	grid.fill(c, sph_parameters.h);
 
 }
 

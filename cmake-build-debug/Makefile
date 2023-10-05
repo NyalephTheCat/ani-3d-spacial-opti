@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/06_sph
+CMAKE_SOURCE_DIR = /mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/Animation3d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/06_sph/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/Animation3d/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/06_sph/cmake-build-debug/CMakeFiles /mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/06_sph/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/Animation3d/cmake-build-debug/CMakeFiles /mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/Animation3d/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/06_sph/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/Animation3d/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 06_sph
+# Target rules for targets named Animation3d
 
 # Build rule for target.
-06_sph: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_sph
-.PHONY : 06_sph
+Animation3d: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Animation3d
+.PHONY : Animation3d
 
 # fast build rule for target.
-06_sph/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/build
-.PHONY : 06_sph/fast
+Animation3d/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/build
+.PHONY : Animation3d/fast
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.o
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.i
@@ -142,7 +142,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.s
@@ -150,7 +150,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o
@@ -158,7 +158,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.i
@@ -166,7 +166,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.s
@@ -174,7 +174,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o
@@ -182,7 +182,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.i
@@ -190,7 +190,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.s
@@ -198,7 +198,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o
@@ -206,7 +206,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.i
@@ -214,7 +214,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.s
@@ -222,7 +222,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.o
@@ -230,7 +230,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.i
@@ -238,7 +238,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.s
@@ -246,7 +246,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/error/error.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.o
@@ -254,7 +254,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.i
@@ -262,7 +262,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.s
@@ -270,7 +270,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/rand/rand.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.o
@@ -278,7 +278,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.i
@@ -286,7 +286,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.s
@@ -294,7 +294,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/base/string/string.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o
@@ -302,7 +302,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.i
@@ -310,7 +310,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.s
@@ -318,7 +318,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o
@@ -326,7 +326,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i
@@ -334,7 +334,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s
@@ -342,7 +342,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.o
@@ -350,7 +350,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.i
@@ -358,7 +358,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.s
@@ -366,7 +366,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/image/image.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o
@@ -374,7 +374,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.i
@@ -382,7 +382,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.s
@@ -390,7 +390,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o
@@ -398,7 +398,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.i
@@ -406,7 +406,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.s
@@ -414,7 +414,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/conta
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.o
@@ -422,7 +422,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.i
@@ -430,7 +430,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.s
@@ -438,7 +438,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/files/files.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.o
@@ -446,7 +446,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.i
@@ -454,7 +454,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.s
@@ -462,7 +462,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/path/path.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o
@@ -470,7 +470,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/i
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.i
@@ -478,7 +478,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/i
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.s
@@ -486,7 +486,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/i
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o
@@ -494,7 +494,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.i
@@ -502,7 +502,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.s
@@ -510,7 +510,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o
@@ -518,7 +518,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.i
@@ -526,7 +526,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.s
@@ -534,7 +534,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o
@@ -542,7 +542,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.i
@@ -550,7 +550,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.s
@@ -558,7 +558,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o
@@ -566,7 +566,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.i
@@ -574,7 +574,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.s
@@ -582,7 +582,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o
@@ -590,7 +590,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.i
@@ -598,7 +598,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.s
@@ -606,7 +606,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o
@@ -614,7 +614,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.i
@@ -622,7 +622,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.s
@@ -630,7 +630,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/m
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o
@@ -638,7 +638,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/q
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.i
@@ -646,7 +646,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/q
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.s
@@ -654,7 +654,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/q
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o
@@ -662,7 +662,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.i
@@ -670,7 +670,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.s
@@ -678,7 +678,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o
@@ -686,7 +686,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.i
@@ -694,7 +694,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.s
@@ -702,7 +702,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o
@@ -710,7 +710,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.i
@@ -718,7 +718,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.s
@@ -726,7 +726,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o
@@ -734,7 +734,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.i
@@ -742,7 +742,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.s
@@ -750,7 +750,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o
@@ -758,7 +758,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.i
@@ -766,7 +766,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.s
@@ -774,7 +774,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.o
@@ -782,7 +782,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.i
@@ -790,7 +790,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.s
@@ -798,7 +798,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/loader/obj_advanced/obj_advanced.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o
@@ -806,7 +806,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.i
@@ -814,7 +814,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.s
@@ -822,7 +822,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o
@@ -830,7 +830,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.i
@@ -838,7 +838,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.s
@@ -846,7 +846,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o
@@ -854,7 +854,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.i
@@ -862,7 +862,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.s
@@ -870,7 +870,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o
@@ -878,7 +878,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.i
@@ -886,7 +886,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.s
@@ -894,7 +894,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/s
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o
@@ -902,7 +902,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.i
@@ -910,7 +910,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.s
@@ -918,7 +918,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o
@@ -926,7 +926,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.i
@@ -934,7 +934,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.s
@@ -942,7 +942,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o
@@ -950,7 +950,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.i
@@ -958,7 +958,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.s
@@ -966,7 +966,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o
@@ -974,7 +974,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.i
@@ -982,7 +982,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.s
@@ -990,7 +990,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o
@@ -998,7 +998,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.i
@@ -1006,7 +1006,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.s
@@ -1014,7 +1014,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o
@@ -1022,7 +1022,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.i
@@ -1030,7 +1030,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.s
@@ -1038,7 +1038,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o
@@ -1046,7 +1046,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.i
@@ -1054,7 +1054,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.s
@@ -1062,7 +1062,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/t
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.o
@@ -1070,7 +1070,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.i
@@ -1078,7 +1078,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.s
@@ -1086,7 +1086,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o
@@ -1094,7 +1094,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.i
@@ -1102,7 +1102,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.s
@@ -1110,7 +1110,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o
@@ -1118,7 +1118,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.i
@@ -1126,7 +1126,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.s
@@ -1134,7 +1134,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.o
@@ -1142,7 +1142,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.i
@@ -1150,7 +1150,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.s
@@ -1158,7 +1158,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o
@@ -1166,7 +1166,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.i
@@ -1174,7 +1174,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.s
@@ -1182,7 +1182,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o
@@ -1190,7 +1190,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.i
@@ -1198,7 +1198,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.s
@@ -1206,7 +1206,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o
@@ -1214,7 +1214,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.i
@@ -1222,7 +1222,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.s
@@ -1230,7 +1230,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.o
@@ -1238,7 +1238,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.i
@@ -1246,7 +1246,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.s
@@ -1254,7 +1254,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_controller/test/test_camera_controller.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o
@@ -1262,7 +1262,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.i
@@ -1270,7 +1270,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.s
@@ -1278,7 +1278,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o
@@ -1286,7 +1286,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.i
@@ -1294,7 +1294,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.s
@@ -1302,7 +1302,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o
@@ -1310,7 +1310,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.i
@@ -1318,7 +1318,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.s
@@ -1326,7 +1326,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o
@@ -1334,7 +1334,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.i
@@ -1342,7 +1342,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.s
@@ -1350,7 +1350,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o
@@ -1358,7 +1358,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.i
@@ -1366,7 +1366,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.s
@@ -1374,7 +1374,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o
@@ -1382,7 +1382,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.i
@@ -1390,7 +1390,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.s
@@ -1398,7 +1398,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o
@@ -1406,7 +1406,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.i
@@ -1414,7 +1414,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.s
@@ -1422,7 +1422,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/c
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o
@@ -1430,7 +1430,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.i
@@ -1438,7 +1438,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.s
@@ -1446,7 +1446,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o
@@ -1454,7 +1454,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.i
@@ -1462,7 +1462,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.s
@@ -1470,7 +1470,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o
@@ -1478,7 +1478,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.i
@@ -1486,7 +1486,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.s
@@ -1494,7 +1494,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o
@@ -1502,7 +1502,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.i
@@ -1510,7 +1510,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.s
@@ -1518,7 +1518,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o
@@ -1526,7 +1526,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.i
@@ -1534,7 +1534,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.s
@@ -1542,7 +1542,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o
@@ -1550,7 +1550,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.i
@@ -1558,7 +1558,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.s
@@ -1566,7 +1566,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o
@@ -1574,7 +1574,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.i
@@ -1582,7 +1582,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.s
@@ -1590,7 +1590,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o
@@ -1598,7 +1598,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.i
@@ -1606,7 +1606,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.s
@@ -1614,7 +1614,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o
@@ -1622,7 +1622,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.i
@@ -1630,7 +1630,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.s
@@ -1638,7 +1638,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/d
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o
@@ -1646,7 +1646,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/e
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.i
@@ -1654,7 +1654,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/e
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.s
@@ -1662,7 +1662,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/e
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o
@@ -1670,7 +1670,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/i
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.i
@@ -1678,7 +1678,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/i
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.s
@@ -1686,7 +1686,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/i
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/imgui/imgui.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o
@@ -1694,7 +1694,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/i
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.i
@@ -1702,7 +1702,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/i
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.s
@@ -1710,7 +1710,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/i
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o
@@ -1718,7 +1718,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.i
@@ -1726,7 +1726,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.s
@@ -1734,7 +1734,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o
@@ -1742,7 +1742,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.i
@@ -1750,7 +1750,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.s
@@ -1758,7 +1758,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o
@@ -1766,7 +1766,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.i
@@ -1774,7 +1774,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.s
@@ -1782,7 +1782,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o
@@ -1790,7 +1790,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.i
@@ -1798,7 +1798,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.s
@@ -1806,7 +1806,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.o
@@ -1814,7 +1814,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.i
@@ -1822,7 +1822,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.s
@@ -1830,7 +1830,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/fbo/fbo.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o
@@ -1838,7 +1838,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.i
@@ -1846,7 +1846,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.s
@@ -1854,7 +1854,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o
@@ -1862,7 +1862,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.i
@@ -1870,7 +1870,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.s
@@ -1878,7 +1878,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o
@@ -1886,7 +1886,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.i
@@ -1894,7 +1894,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.s
@@ -1902,7 +1902,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o
@@ -1910,7 +1910,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.i
@@ -1918,7 +1918,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.s
@@ -1926,7 +1926,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/o
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o
@@ -1934,7 +1934,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/p
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.i
@@ -1942,7 +1942,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/p
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.s
@@ -1950,7 +1950,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/p
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o
@@ -1958,7 +1958,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/p
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.i
@@ -1966,7 +1966,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/p
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.s
@@ -1974,7 +1974,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/p
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o
@@ -1982,7 +1982,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/p
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.i
@@ -1990,7 +1990,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/p
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.s
@@ -1998,7 +1998,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/p
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o
@@ -2006,7 +2006,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.i
@@ -2014,7 +2014,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.s
@@ -2022,7 +2022,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o
@@ -2030,7 +2030,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.i
@@ -2038,7 +2038,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.s
@@ -2046,7 +2046,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o
@@ -2054,7 +2054,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.i
@@ -2062,7 +2062,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.s
@@ -2070,7 +2070,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o
@@ -2078,7 +2078,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.i
@@ -2086,7 +2086,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.s
@@ -2094,7 +2094,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o
@@ -2102,7 +2102,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.i
@@ -2110,7 +2110,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.s
@@ -2118,7 +2118,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/t
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.o
@@ -2126,7 +2126,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/w
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.i
@@ -2134,7 +2134,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/w
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.s
@@ -2142,7 +2142,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/w
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/graphics/window/window.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o
@@ -2150,7 +2150,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.i
@@ -2158,7 +2158,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.s
@@ -2166,7 +2166,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.o
@@ -2174,7 +2174,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.i
@@ -2182,7 +2182,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.s
@@ -2190,7 +2190,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.o
@@ -2198,7 +2198,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.i
@@ -2206,7 +2206,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.s
@@ -2214,7 +2214,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o
@@ -2222,7 +2222,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.i
@@ -2230,7 +2230,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.s
@@ -2238,7 +2238,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.o
@@ -2246,7 +2246,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.i
@@ -2254,7 +2254,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.s
@@ -2262,7 +2262,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o
@@ -2270,7 +2270,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.i
@@ -2278,7 +2278,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.s
@@ -2286,7 +2286,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o
@@ -2294,7 +2294,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.i
@@ -2302,7 +2302,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.s
@@ -2310,7 +2310,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o
@@ -2318,7 +2318,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.i
@@ -2326,7 +2326,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.s
@@ -2334,7 +2334,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o
@@ -2342,7 +2342,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i
@@ -2350,7 +2350,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s
@@ -2358,7 +2358,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o
@@ -2366,7 +2366,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.i
@@ -2374,7 +2374,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.s
@@ -2382,7 +2382,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o
@@ -2390,7 +2390,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.i
@@ -2398,7 +2398,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.s
@@ -2406,7 +2406,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.o
@@ -2414,7 +2414,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.i
@@ -2422,7 +2422,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.s
@@ -2430,7 +2430,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o
@@ -2438,7 +2438,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.i
@@ -2446,7 +2446,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.s
@@ -2454,7 +2454,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp.s
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.o: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o
@@ -2462,7 +2462,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to build an object file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.i: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i
@@ -2470,7 +2470,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to preprocess a source file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i
 
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.s: mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s
@@ -2478,7 +2478,7 @@ mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/sr
 
 # target to generate assembly for a file
 mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s
 .PHONY : mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s
 
 src/environment.o: src/environment.cpp.o
@@ -2486,7 +2486,7 @@ src/environment.o: src/environment.cpp.o
 
 # target to build an object file
 src/environment.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/environment.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/environment.cpp.o
 .PHONY : src/environment.cpp.o
 
 src/environment.i: src/environment.cpp.i
@@ -2494,7 +2494,7 @@ src/environment.i: src/environment.cpp.i
 
 # target to preprocess a source file
 src/environment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/environment.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/environment.cpp.i
 .PHONY : src/environment.cpp.i
 
 src/environment.s: src/environment.cpp.s
@@ -2502,7 +2502,7 @@ src/environment.s: src/environment.cpp.s
 
 # target to generate assembly for a file
 src/environment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/environment.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/environment.cpp.s
 .PHONY : src/environment.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -2510,7 +2510,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -2518,7 +2518,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -2526,7 +2526,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/scene.o: src/scene.cpp.o
@@ -2534,7 +2534,7 @@ src/scene.o: src/scene.cpp.o
 
 # target to build an object file
 src/scene.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/scene.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/scene.cpp.o
 .PHONY : src/scene.cpp.o
 
 src/scene.i: src/scene.cpp.i
@@ -2542,7 +2542,7 @@ src/scene.i: src/scene.cpp.i
 
 # target to preprocess a source file
 src/scene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/scene.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/scene.cpp.i
 .PHONY : src/scene.cpp.i
 
 src/scene.s: src/scene.cpp.s
@@ -2550,7 +2550,7 @@ src/scene.s: src/scene.cpp.s
 
 # target to generate assembly for a file
 src/scene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/scene.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/scene.cpp.s
 .PHONY : src/scene.cpp.s
 
 src/simulation/Grid.o: src/simulation/Grid.cpp.o
@@ -2558,7 +2558,7 @@ src/simulation/Grid.o: src/simulation/Grid.cpp.o
 
 # target to build an object file
 src/simulation/Grid.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/simulation/Grid.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/simulation/Grid.cpp.o
 .PHONY : src/simulation/Grid.cpp.o
 
 src/simulation/Grid.i: src/simulation/Grid.cpp.i
@@ -2566,7 +2566,7 @@ src/simulation/Grid.i: src/simulation/Grid.cpp.i
 
 # target to preprocess a source file
 src/simulation/Grid.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/simulation/Grid.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/simulation/Grid.cpp.i
 .PHONY : src/simulation/Grid.cpp.i
 
 src/simulation/Grid.s: src/simulation/Grid.cpp.s
@@ -2574,7 +2574,7 @@ src/simulation/Grid.s: src/simulation/Grid.cpp.s
 
 # target to generate assembly for a file
 src/simulation/Grid.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/simulation/Grid.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/simulation/Grid.cpp.s
 .PHONY : src/simulation/Grid.cpp.s
 
 src/simulation/simulation.o: src/simulation/simulation.cpp.o
@@ -2582,7 +2582,7 @@ src/simulation/simulation.o: src/simulation/simulation.cpp.o
 
 # target to build an object file
 src/simulation/simulation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/simulation/simulation.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/simulation/simulation.cpp.o
 .PHONY : src/simulation/simulation.cpp.o
 
 src/simulation/simulation.i: src/simulation/simulation.cpp.i
@@ -2590,7 +2590,7 @@ src/simulation/simulation.i: src/simulation/simulation.cpp.i
 
 # target to preprocess a source file
 src/simulation/simulation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/simulation/simulation.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/simulation/simulation.cpp.i
 .PHONY : src/simulation/simulation.cpp.i
 
 src/simulation/simulation.s: src/simulation/simulation.cpp.s
@@ -2598,7 +2598,7 @@ src/simulation/simulation.s: src/simulation/simulation.cpp.s
 
 # target to generate assembly for a file
 src/simulation/simulation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_sph.dir/build.make CMakeFiles/06_sph.dir/src/simulation/simulation.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Animation3d.dir/build.make CMakeFiles/Animation3d.dir/src/simulation/simulation.cpp.s
 .PHONY : src/simulation/simulation.cpp.s
 
 # Help Target
@@ -2609,7 +2609,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 06_sph"
+	@echo "... Animation3d"
 	@echo "... mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.o"
 	@echo "... mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.i"
 	@echo "... mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/cgp/library/cgp/core/array/numarray/test/test_numarray.s"

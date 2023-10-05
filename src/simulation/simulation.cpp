@@ -74,7 +74,7 @@ void update_force(numarray<particle_element>& particles, float h, float m, float
 
 }
 
-void simulate(float dt, numarray<particle_element>& particles, sph_parameters_structure const& sph_parameters)
+void simulate(float dt, Grid2d grid, sph_parameters_structure const& sph_parameters)
 {
 
 	// Update values

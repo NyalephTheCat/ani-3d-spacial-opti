@@ -5,6 +5,7 @@
 #include "environment.hpp"
 
 #include "simulation/simulation.hpp"
+#include "simulation/Grid.h"
 
 using cgp::mesh_drawable;
 

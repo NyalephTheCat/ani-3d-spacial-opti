@@ -1,10 +1,6 @@
 #pragma once
 
 #include "cgp/cgp.hpp"
-#include "simulation/Grid.h"
-
-#include <iostream>
-#include <vector>
 
 // SPH Particle
 struct particle_element
@@ -39,4 +35,7 @@ struct sph_parameters_structure
 
 };
 
-void simulate(float dt, cgp::numarray<particle_element>& particles, sph_parameters_structure const& sph_parameters);
+
+#include "Grid.h"
+
+void simulate(float dt, Grid2d grid, sph_parameters_structure const& sph_parameters);
