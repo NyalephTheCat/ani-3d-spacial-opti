@@ -117,7 +117,7 @@ void Grid2d::create_grid(const grid_init_param &grid_init_param) {
     for (float i = -1 + grid_init_param.padding.x; i <= 1 - grid_init_param.padding.x; i += true_spacing) {
         for (float j = -1 + grid_init_param.padding.y; j <= 1 - grid_init_param.padding.y; j += true_spacing) {
             particle_element particle;
-            particle.p = vec3{i, j, 0};
+            particle.p = vec3{i + cell_size / 8.0 * rand_interval(), j + cell_size / 8.0 * rand_interval(), 0};
             particle.v = get_initial_velocity(grid_init_param.velocity);
 
             add_particle(particle);

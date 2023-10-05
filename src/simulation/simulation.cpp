@@ -109,10 +109,7 @@ void simulate(float dt, Grid2d &grid, sph_parameters_structure const& sph_parame
             p.y = -1 + epsilon * rand_interval();
             v.y *= -0.5f;
         }
-        if (p.y > 1) { // Top
-            p.y = 1 - epsilon * rand_interval();
-            v.y *= -0.5f;
-        }
+
         if (p.x < -1) { // Left
             p.x = -1 + epsilon * rand_interval();
             v.x *= -0.5f;
