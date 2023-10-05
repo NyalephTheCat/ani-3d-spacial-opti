@@ -86,7 +86,7 @@ void scene_structure::display_gui() {
         grid.create_grid(grid_init_param());
     }
 
-    if (ImGui::Button("Reset simulation (With random forces)")) {
+    if (ImGui::Button("Random simulation")) {
         auto param = grid_init_param();
         param.velocity = initial_velocity::RANDOM;
         grid.create_grid(param);

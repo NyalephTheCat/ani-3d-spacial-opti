@@ -6,17 +6,17 @@ using namespace cgp;
 // Convert a density value to a pressure
 float density_to_pressure(float rho, float rho0, float stiffness)
 {
-    return stiffness*(rho-rho0);
+    return stiffness * (rho - rho0);
 }
 
 float W_laplacian_viscosity(vec3 const& p_i, vec3 const& p_j, float h)
 {
-    return 45.0f/(Pi*std::pow(h,6)) * (h-norm(p_i-p_j));
+    return 45.0f / (Pi * std::pow(h,6)) * (h-norm(p_i - p_j));
 }
 
 vec3 W_gradient_pressure(vec3 const& p_i, vec3 const& p_j, float h)
 {
-    return -45.0f/(Pi*std::pow(h,6)) * std::pow(h-norm(p_i-p_j),2) * (p_i - p_j) / norm(p_i-p_j);
+    return -45.0f / (Pi*std::pow(h,6)) * std::pow(h-norm(p_i-p_j),2) * (p_i - p_j) / norm(p_i - p_j);
 }
 
 float W_density(vec3 const& p_i, const vec3& p_j, float h)
@@ -34,10 +34,6 @@ void update_density(Grid2d &grid, sph_parameters_structure const& sph_parameters
         particle->rho = 0.0f;
 
         for (auto neighbour: grid.get_particles_influencing(*particle)) {
-            if (neighbour == particle) {
-                continue;
-            }
-
             particle->rho += m * W_density(particle->p, neighbour->p, h);
         }
     }
@@ -69,17 +65,18 @@ void update_force(Grid2d &grid, sph_parameters_structure const& sph_parameters) 
         vec3 pressure_force = vec3{0, 0, 0};
 
         for (auto neighbour: grid.get_particles_influencing(*particle)) {
-            if (neighbour == particle) {
+            if (neighbour == particle || norm(neighbour->p - particle->p) > h) {
                 continue;
             }
 
             pressure_force += m * (particle->pressure + neighbour->pressure) / (2.0f * neighbour->rho) *
                               W_gradient_pressure(particle->p, neighbour->p, h);
+
             viscosity_force += m * (neighbour->v - particle->v) / neighbour->rho *
                                W_laplacian_viscosity(particle->p, neighbour->p, h);
         }
 
-        //particle->f += -m / particle->rho * pressure_force + m * nu * viscosity_force;
+        particle->f += -m / particle->rho * pressure_force + m * nu * viscosity_force;
     }
 }
 
@@ -96,7 +93,7 @@ void simulate(float dt, Grid2d &grid, sph_parameters_structure const& sph_parame
         vec3& f = particle->f;
 
         v = (1 - damping) * v + dt * f / m;
-        p = p + dt * v;
+        p += dt * v;
     }
 
     // Collision
@@ -109,14 +106,18 @@ void simulate(float dt, Grid2d &grid, sph_parameters_structure const& sph_parame
             p.y = -1 + epsilon * rand_interval();
             v.y *= -0.5f;
         }
+        if (p.y > 1) { // Top
+            p.y = 1 - epsilon * rand_interval();
+            v.y *= -0.5f;
+        }
         if (p.x < -1) { // Left
             p.x = -1 + epsilon * rand_interval();
-            v.x *= -0.5;
+            v.x *= -0.5f;
         }
 
         if (p.x > 1) { // Right
             p.x = 1 - epsilon * rand_interval();
-            v.x *= -0.5;
+            v.x *= -0.5f;
         }
     }
 }
