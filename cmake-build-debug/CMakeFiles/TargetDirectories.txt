@@ -1,0 +1,3 @@
+/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/06_sph/cmake-build-debug/CMakeFiles/06_sph.dir
+/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/06_sph/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/yaelm/Documents/work/epita_ani3d_lab_code/scenes_epita_ani3d/06_sph/cmake-build-debug/CMakeFiles/rebuild_cache.dir
