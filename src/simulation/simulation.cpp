@@ -33,10 +33,7 @@ void update_density(Grid2d &grid, sph_parameters_structure const& sph_parameters
     for (auto particle: grid.get_all_particles()) {
         particle->rho = 0.0f;
 
-        for (auto neighbour: grid.get_all_particles()) {
-            if (norm(particle->p - neighbour->p) > h) {
-                continue;
-            }
+        for (auto neighbour: grid.get_particles_influencing(*particle)) {
             particle->rho += m * W_density(particle->p, neighbour->p, h);
         }
     }
@@ -68,7 +65,7 @@ void update_force(Grid2d &grid, sph_parameters_structure const& sph_parameters) 
         vec3 pressure_force = vec3{0, 0, 0};
 
         for (auto neighbour: grid.get_particles_influencing(*particle)) {
-            if (neighbour == particle || norm(neighbour->p - particle->p) > h) {
+            if (neighbour == particle) {
                 continue;
             }
 
