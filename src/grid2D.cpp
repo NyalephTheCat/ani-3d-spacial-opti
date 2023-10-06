@@ -57,6 +57,16 @@ void Grid2d::add_particle(particle_element p) {
     particles.push_back(&grid[cell_coordinates.first][cell_coordinates.second].back());
 }
 
+void Grid2d::update_particles() {
+    // Reset grid
+    grid = std::vector<std::vector<std::vector<particle_element>>>(grid_size, std::vector<std::vector<particle_element>>(grid_size));
+
+    for (auto& particle : particles) {
+        std::pair<int, int> cell_coordinates = get_cell_coordinates(*particle);
+        grid[cell_coordinates.first][cell_coordinates.second].push_back(*particle);
+    }
+}
+
 std::vector<particle_element*> Grid2d::get_particles_influencing(particle_element particle) {
     std::vector<particle_element*> influencing_particles;
 
@@ -66,10 +76,10 @@ std::vector<particle_element*> Grid2d::get_particles_influencing(particle_elemen
     int cell_y = cell_coords.second;
 
     // Define a range of neighboring cells to check
-    int min_x = std::max(0, cell_x - 1);
-    int max_x = std::min(grid_size - 1, cell_x + 1);
-    int min_y = std::max(0, cell_y - 1);
-    int max_y = std::min(grid_size - 1, cell_y + 1);
+    int min_x = std::max(0, cell_x - 2);
+    int max_x = std::min(grid_size - 1, cell_x + 2);
+    int min_y = std::max(0, cell_y - 2);
+    int max_y = std::min(grid_size - 1, cell_y + 2);
 
     // Iterate over neighboring cells and add particles from those cells
     for (int x = min_x; x <= max_x; ++x) {
@@ -83,14 +93,6 @@ std::vector<particle_element*> Grid2d::get_particles_influencing(particle_elemen
             }
         }
     }
-
-    /* This works but is slower
-    for (auto p: get_all_particles()) {
-        if (norm(p->p - particle.p) < cell_size) {
-            influencing_particles.push_back(p);
-        }
-    }
-     */
 
     return influencing_particles;
 }

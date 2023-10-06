@@ -79,6 +79,11 @@ public:
      * @return A vector of particles that influence the particle
      */
      std::vector<particle_element*> get_particles_influencing(particle_element particle);
+
+    /**
+     * @brief Update the position of all the particles in the grid
+     */
+    void update_particles();
 private:
     float cell_size;
     int grid_size;
