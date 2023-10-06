@@ -40,3 +40,20 @@ Ces options nous servent à vérifier que la simulation reste vraisemblable avec
 
 # Contrôle du mouvement des particules à l'aide de touches de clavier
 
+Ensuite, nous avons jugé interessant d'implémenter le déplacement des particules à l'aide de touches de clavier.
+
+Une fois la simulation lancée, vous pouvez appuyer sur les touches WASD pour déplacer vos particules respectivement en haut, à gauche, en bas, ou à droite.
+
+Cette fonctionnalité a été implémenté en incrémentant/décrémentant le vecteur vitesse de chaque particule dans la direction liée à la touche pressée.
+
+Cette option, en plus d'ajouter un comportement amusant au liquide, nous permet de vérifier que la simulation reste vraisemblable en changeant manuellement la direction de déplacement des particules.
+
+# Ajout d'informations supplémentaires sur l'interface
+
+Nous avons enfin jugé interessant d'ajouter une information par rapport au nombre d'FPS, et par rapport au nombre de particules sur la simulation.
+
+Ces options nous permettent de vérifier le bon fonctionnement des fonctionnalités décrites precedemment et de comparer les performances de nos simulations.
+
+# Conclusion
+
+En conclusion, nos options ajoutées fonctionnent, la simulation reste vraisemblable et les performances sont correctes (60 fps sur les machines de l'école, déscendant à 40 fps si l'on augmente le nombre de particules au maximum).
