@@ -56,7 +56,7 @@ public:
      *
      * @param p The particle to add
      */
-    void add_particle(particle_element p);
+    void add_particle(particle_element *p);
 
     /**
      * @brief a getter for the number of particles in the grid
@@ -88,7 +88,7 @@ private:
     float cell_size;
     int grid_size;
 
-    std::vector<std::vector<std::vector<particle_element>>> grid;
+    std::vector<std::vector<std::vector<particle_element *>>> grid;
 
     // A vector referencing all the particles in the grid
     std::vector<particle_element*> particles;

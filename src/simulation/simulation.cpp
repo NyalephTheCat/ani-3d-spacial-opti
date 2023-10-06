@@ -95,7 +95,6 @@ void simulate(float dt, Grid2d &grid, sph_parameters_structure const& sph_parame
         v = (1 - damping) * v + dt * f / m;
         p += dt * v;
     }
-    grid.update_particles(); // Update the grid with the new particle positions
 
     // Collision
     float const epsilon = 1e-3f;

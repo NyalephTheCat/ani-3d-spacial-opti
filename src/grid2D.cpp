@@ -1,5 +1,3 @@
-#pragma once
-
 #include "grid2D.hpp"
 
 #include <iostream>
@@ -47,23 +45,27 @@ void Grid2d::clear() {
     particles.clear();
 }
 
-void Grid2d::add_particle(particle_element p) {
+void Grid2d::add_particle(particle_element *p) {
     // Add the particle to the grid
-    std::pair<int, int> cell_coordinates = get_cell_coordinates(p);
+    std::pair<int, int> cell_coordinates = get_cell_coordinates(*p);
 
     grid[cell_coordinates.first][cell_coordinates.second].push_back(p);
 
     // Add the particle to the particles vector
-    particles.push_back(&grid[cell_coordinates.first][cell_coordinates.second].back());
+    particles.push_back(grid[cell_coordinates.first][cell_coordinates.second].back());
 }
 
 void Grid2d::update_particles() {
     // Reset grid
-    grid = std::vector<std::vector<std::vector<particle_element>>>(grid_size, std::vector<std::vector<particle_element>>(grid_size));
+    grid.clear();
+    grid.resize(grid_size);
+    for (int i = 0; i < grid_size; ++i) {
+        grid[i].resize(grid_size);
+    }
 
     for (auto& particle : particles) {
         std::pair<int, int> cell_coordinates = get_cell_coordinates(*particle);
-        grid[cell_coordinates.first][cell_coordinates.second].push_back(*particle);
+        grid[cell_coordinates.first][cell_coordinates.second].push_back(particle);
     }
 }
 
@@ -76,19 +78,19 @@ std::vector<particle_element*> Grid2d::get_particles_influencing(particle_elemen
     int cell_y = cell_coords.second;
 
     // Define a range of neighboring cells to check
-    int min_x = std::max(0, cell_x - 2);
-    int max_x = std::min(grid_size - 1, cell_x + 2);
-    int min_y = std::max(0, cell_y - 2);
-    int max_y = std::min(grid_size - 1, cell_y + 2);
+    int min_x = std::max(0, cell_x - 1);
+    int max_x = std::min(grid_size - 1, cell_x + 1);
+    int min_y = std::max(0, cell_y - 1);
+    int max_y = std::min(grid_size - 1, cell_y + 1);
 
     // Iterate over neighboring cells and add particles from those cells
     for (int x = min_x; x <= max_x; ++x) {
         for (int y = min_y; y <= max_y; ++y) {
-            std::vector<particle_element>& cell = grid[x][y];
-            for (particle_element& neighbor_particle : cell) {
+            std::vector<particle_element *>& cell = grid[x][y];
+            for (auto neighbor_particle : cell) {
                 // TODO FIX
-                if (norm(neighbor_particle.p - particle.p) < cell_size) {
-                    influencing_particles.push_back(&neighbor_particle);
+                if (norm(neighbor_particle->p - particle.p) < cell_size) {
+                    influencing_particles.push_back(neighbor_particle);
                 }
             }
         }
@@ -123,9 +125,9 @@ void Grid2d::create_grid(const grid_init_param &grid_init_param) {
 
     for (float i = -1 + grid_init_param.padding.x; i <= 1 - grid_init_param.padding.x; i += true_spacing) {
         for (float j = -1 + grid_init_param.padding.y; j <= 1 - grid_init_param.padding.y; j += true_spacing) {
-            particle_element particle;
-            particle.p = vec3{i + cell_size / 8.0 * rand_interval(), j + cell_size / 8.0 * rand_interval(), 0};
-            particle.v = get_initial_velocity(grid_init_param.velocity);
+            auto *particle = new particle_element();
+            particle->p = vec3{i + cell_size / 8.0 * rand_interval(), j + cell_size / 8.0 * rand_interval(), 0};
+            particle->v = get_initial_velocity(grid_init_param.velocity);
 
             add_particle(particle);
         }
