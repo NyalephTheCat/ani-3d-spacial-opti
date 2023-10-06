@@ -130,8 +130,6 @@ void scene_structure::keyboard_event() {
             particle->v += vec3{0, -0.1f, 0};
         }
     }
-
-
     camera_control.action_keyboard(environment.camera_view);
 }
 
