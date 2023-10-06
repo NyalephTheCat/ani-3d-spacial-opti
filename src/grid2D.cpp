@@ -133,3 +133,12 @@ void Grid2d::create_grid(const grid_init_param &grid_init_param) {
         }
     }
 }
+
+void Grid2d::resize(float size) {
+    if (cell_size == size) return;
+
+    cell_size = size;
+    grid_size = static_cast<int>(2 / cell_size);
+
+    update_particles();
+}

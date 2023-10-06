@@ -40,6 +40,13 @@ public:
     Grid2d(const Grid2d& other) = default;
 
     /**
+     * @brief A way to resize the grid
+     *
+     * @param size The new size of the grid
+     */
+    void resize(float size);
+
+    /**
      * @brief creates a grid with the given parameters
      *
      * @param grid_init_param the parameters of the grid

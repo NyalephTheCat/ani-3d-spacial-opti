@@ -8,8 +8,9 @@ using cgp::mesh_drawable;
 
 struct gui_parameters {
     bool display_color = true;
-    bool display_particles = true;
+    bool display_particles = false;
     bool display_radius = false;
+    float particle_scale = 2.0f;
 };
 
 // The structure of the custom scene

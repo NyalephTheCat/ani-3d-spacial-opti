@@ -49,6 +49,9 @@ void scene_structure::display_frame() {
     timer.update(); // update the timer to the current elapsed time
     float const dt = 0.005f * timer.scale;
 
+    sph_parameters.h = 0.12f / gui.particle_scale;
+    grid.resize(sph_parameters.h);
+
     simulate(dt, grid, sph_parameters);
 
     if (gui.display_particles) {
@@ -78,12 +81,17 @@ void scene_structure::display_frame() {
 }
 
 void scene_structure::display_gui() {
+
+    ImGui::Text("FPS %.1f", ImGui::GetIO().Framerate);
+    ImGui::Text("Number of particles %lu", grid.get_number_of_particles());
+
     ImGui::Checkbox("Display color", &gui.display_color);
     ImGui::Checkbox("Display particles", &gui.display_particles);
     ImGui::Checkbox("Display radius", &gui.display_radius);
 
     if (ImGui::Button("Reset simulation")) {
-        grid.create_grid(grid_init_param());
+        auto param = grid_init_param();
+        grid.create_grid(param);
     }
 
     if (ImGui::Button("Random simulation")) {
@@ -91,6 +99,8 @@ void scene_structure::display_gui() {
         param.velocity = initial_velocity::RANDOM;
         grid.create_grid(param);
     }
+
+    ImGui::SliderFloat("Particle scale", &gui.particle_scale, 1.0f, 3.0f, "%.3f", 1.0f);
 }
 
 void scene_structure::mouse_move_event() {}
@@ -100,6 +110,28 @@ void scene_structure::mouse_click_event() {
 }
 
 void scene_structure::keyboard_event() {
+    if (ImGui::IsKeyDown('A')) {
+        for (auto particle: grid.get_all_particles()) {
+            particle->v += vec3{-0.1f, 0, 0};
+        }
+    }
+    if (ImGui::IsKeyDown('D')) {
+        for (auto particle: grid.get_all_particles()) {
+            particle->v += vec3{0.1f, 0, 0};
+        }
+    }
+    if (ImGui::IsKeyDown('W')) {
+        for (auto particle: grid.get_all_particles()) {
+            particle->v += vec3{0, 0.1f, 0};
+        }
+    }
+    if (ImGui::IsKeyDown('S')) {
+        for (auto particle: grid.get_all_particles()) {
+            particle->v += vec3{0, -0.1f, 0};
+        }
+    }
+
+
     camera_control.action_keyboard(environment.camera_view);
 }
 
